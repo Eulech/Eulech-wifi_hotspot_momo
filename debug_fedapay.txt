@@ -1,0 +1,9 @@
+{
+    "event": "transaction.updated",
+    "data": {
+        "id": 12345,
+        "status": "approved",
+        "amount": 500,
+        "description": "72h WiFi"
+    }
+}

@@ -1,0 +1,39 @@
+// Affichage du reçu de paiement
+?>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion WiFi</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin: 50px; }
+        .container { width: 300px; margin: 0 auto; }
+        input { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px; text-align: center; font-size: 16px; }
+        button { background-color: #007bff; color: white; padding: 10px; border: none; width: 100%; cursor: pointer; font-size: 16px; }
+        button:hover { background-color: #0056b3; }
+    </style>
+</head>
+<body>
+    <h2>Paiement validé ✅</h2>
+    <p>Transaction ID: <?= htmlspecialchars($transaction_id) ?></p>
+    <p>Montant payé: <?= htmlspecialchars($montant) ?> FCFA</p>
+    <p>Offre: <?= htmlspecialchars($nomOffre) ?></p>
+    
+    <h3>Vos accès WiFi :</h3>
+    <div class="container">
+        <form action="connexion_wifi.html" method="POST">
+            <input type="text" name="username" value="<?= htmlspecialchars($login) ?>" readonly>
+            <input type="password" id="password" name="password" value="<?= htmlspecialchars($password) ?>" readonly>
+            <button type="button" onclick="togglePassword()">Afficher/Masquer</button>
+            <button type="submit">Connexion</button>
+        </form>
+    </div>
+    <script>
+        function togglePassword() {
+            let passInput = document.getElementById("password");
+            passInput.type = passInput.type === "password" ? "text" : "password";
+        }
+    </script>
+</body>
+</html>

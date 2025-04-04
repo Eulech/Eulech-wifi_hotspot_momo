@@ -1,0 +1,1294 @@
+Webhook appelé
+Données brutes reçues : {"name":"transaction.created","object":"transaction","entity":{"klass":"v1/transaction","id":102209313,"reference":"trx_-bo_1743599050131","amount":100,"description":"Choisissez votre forfait et payez en toute sécurité\n","callback_url":"https://me.fedapay.com/paiement-wifi/callback?locale=","status":"pending","customer_id":4035302,"currency_id":1,"mode":null,"operation":"payment","metadata":{"expire_schedule_jobid":"b3a17e3f39a41e653081d147"},"commission":null,"fees":null,"fixed_commission":0,"amount_transferred":null,"created_at":"2025-04-02T13:04:10.131Z","updated_at":"2025-04-02T13:04:10.837Z","approved_at":null,"canceled_at":null,"declined_at":null,"refunded_at":null,"transferred_at":null,"deleted_at":null,"last_error_code":null,"custom_metadata":null,"amount_debited":null,"receipt_url":null,"payment_method_id":null,"sub_accounts_commissions":null,"transaction_key":null,"merchant_reference":null,"account_id":9205,"balance_id":null,"customer":{"klass":"v1/customer","id":4035302,"firstname":"Eulech","lastname":"GUEDENON","full_name":"Eulech GUEDENON","email":"solutechbenin1@gmail.com","account_id":9205,"phone_number_id":107263801,"created_at":"2025-03-10T12:32:11.427Z","updated_at":"2025-04-01T12:18:51.808Z","deleted_at":null},"currency":{"klass":"v1/currency","id":1,"name":"FCFA","iso":"XOF","code":952,"prefix":null,"suffix":"CFA","div":1,"default":true,"created_at":"2018-05-28T15:29:17.866Z","updated_at":"2024-12-10T11:52:28.364Z","modes":["mtn","cybersource","moov","mtn_ci","moov_tg","orange_ci","orange_sn","free_sn","airtel_ne","togocel","orange_ml","mtn_open","mtn_ecw","ecobank_tpe","orabank_tpe","uba","stripe_gw","uba_atm","bmo","mtn_open_ci","sbin","wave_sn","wave_ci","moov_ci","moov_bf","orange_bf","coris_money","wave_direct_ci","my_feda"]},"payment_method":null,"balance":null,"refunds":[]},"account":{"klass":"v1/account","id":9205,"name":"Solu tech","timezone":"Africa/Algiers","country":"BJ","created_at":"2021-09-07T10:14:42.229Z","updated_at":"2025-04-01T12:54:39.395Z","verified":true,"reference":"acc_2722223637","business_type":"business","business_identity_type":"NATIONAL ID","business_identity_number":"20715585465224","business_vat_number":"0202113221674","business_registration_number":" RB/COT/21 A 72482","business_category":"IT and Software","blocked":false,"business_website":"192.168.99.254/login","business_address":"lot 2094 menontin cotonou","business_name":"SOLU TECH BENIN","business_phone":"+229 01 66 23 59 53","business_email":"solutechbenin1@gmail.com","business_owner":"GUEDENON Eulech Ulisse","business_company_capital":"500000","business_description":"Des codes wifi","submitted":true,"reject_reason":"fournir une description détaillée de votre activité","has_balance_issue":false,"blocked_reason":null,"last_balance_issue_checked_at":"2025-04-01T12:54:39.386Z","prospect_code":null,"deal_closer_code":null,"manager_code":null,"balance_issue_diff":0,"business_identity_id":103817,"business_vat_id":103818,"business_registration_id":104063,"business_owner_signature_id":9545,"business_identity":{"klass":"v1/asset","id":103817,"public":false,"mime_type":"image/jpeg","urls":{"original":"assets/103817/491faebf9a0f12cc82504773cef07fb6.jpg","thumbnail":"assets/103817/3bf8deb3efdad693578c7aec6fbc7e4e.jpg"},"original_metadata":{"filename":"CIP.JPG","size":44628,"mime_type":"image/jpeg"},"created_at":"2025-03-10T13:14:50.966Z","updated_at":"2025-03-10T13:14:54.428Z"},"business_vat":{"klass":"v1/asset","id":103818,"public":false,"mime_type":"image/jpeg","urls":{"original":"assets/103818/e4e1308583f8fc15aa4741dedbde43dd.jpg","thumbnail":"assets/103818/8aa492eaad294957bd0b21824e6f295e.jpg"},"original_metadata":{"filename":"IFU.JPG","size":61778,"mime_type":"image/jpeg"},"created_at":"2025-03-10T13:15:45.231Z","updated_at":"2025-03-10T13:15:47.919Z"},"business_registration":{"klass":"v1/asset","id":104063,"public":false,"mime_type":"image/jpeg","urls":{"original":"assets/104063/8d93c0145335457b5ac6779be7fc08e0.jpg","thumbnail":"assets/104063/ca6ab225f8f3a6829e35ff968264fea3.jpg"},"original_metadata":{"filename":"RCCM.JPG","size":59431,"mime_type":"image/jpeg"},"created_at":"2025-03-12T12:41:56.768Z","updated_at":"2025-03-12T12:41:59.763Z"},"business_owner_signature":{"klass":"v1/asset","id":9545,"public":false,"mime_type":"image/png","urls":{"original":"assets/9545/62f68e7468251ebff0feac7ec057fad7.png","thumbnail":"assets/9545/4495d9e7d475927fbeded620560b60d2.png"},"original_metadata":{"filename":"Screenshot_20210907-174146.png","size":855206,"mime_type":"image/png"},"created_at":"2021-09-07T16:44:22.548Z","updated_at":"2021-09-07T16:44:23.911Z"},"user_accounts":[{"klass":"v1/user_account","id":9384,"account_id":9205,"user_id":8555,"role_id":1}],"users":[{"klass":"v1/user","id":8555,"email":"geulech@gmail.com","confirmed_at":"2021-09-07T10:45:01.893Z","reset_sent_at":"2023-02-08T22:30:01.768Z","admin":false,"admin_role":"user","created_at":"2021-09-07T10:14:42.217Z","updated_at":"2025-03-07T21:55:49.743Z","firstname":"EULECH","lastname":"GUEDENON","locale":"fr","two_fa_enabled":false}],"api_keys":[{"klass":"v1/api_key","id":69842,"created_at":"2025-03-20T09:20:14.739Z","updated_at":"2025-03-20T09:20:14.739Z","public_key":"pk_live_Bxj9QGxpQ0qMIk5w89WuKfy2"}],"balances":[{"klass":"v1/balance","id":112792,"amount":391,"mode":"mtn","created_at":"2021-09-07T10:14:42.280Z","updated_at":"2021-09-07T10:14:42.280Z"},{"klass":"v1/balance","id":1487468,"amount":0,"mode":"my_feda","created_at":"2024-12-10T11:19:49.449Z","updated_at":"2024-12-10T11:19:49.449Z"},{"klass":"v1/balance","id":1286628,"amount":0,"mode":"wave_direct_ci","created_at":"2024-09-02T16:48:31.533Z","updated_at":"2024-09-02T16:48:31.533Z"},{"klass":"v1/balance","id":1184758,"amount":0,"mode":"coris_money","created_at":"2024-08-06T08:35:16.623Z","updated_at":"2024-08-06T08:35:16.623Z"},{"klass":"v1/balance","id":798864,"amount":0,"mode":"moov_ci","created_at":"2024-03-13T12:50:47.796Z","updated_at":"2024-03-13T12:50:47.796Z"},{"klass":"v1/balance","id":798863,"amount":0,"mode":"orange_bf","created_at":"2024-03-13T12:50:47.771Z","updated_at":"2024-03-13T12:50:47.771Z"},{"klass":"v1/balance","id":798862,"amount":0,"mode":"moov_bf","created_at":"2024-03-13T12:50:47.747Z","updated_at":"2024-03-13T12:50:47.747Z"},{"klass":"v1/balance","id":798861,"amount":0,"mode":"wave_sn","created_at":"2024-03-13T12:50:47.724Z","updated_at":"2024-03-13T12:50:47.724Z"},{"klass":"v1/balance","id":798860,"amount":0,"mode":"wave_ci","created_at":"2024-03-13T12:50:47.700Z","updated_at":"2024-03-13T12:50:47.700Z"},{"klass":"v1/balance","id":614768,"amount":0,"mode":"sbin","created_at":"2023-11-27T18:47:41.975Z","updated_at":"2023-11-27T18:47:41.975Z"},{"klass":"v1/balance","id":444577,"amount":0,"mode":"bmo","created_at":"2023-03-27T17:46:55.472Z","updated_at":"2023-03-27T17:46:55.472Z"},{"klass":"v1/balance","id":357856,"amount":0,"mode":"uba_atm","created_at":"2022-11-15T04:20:28.707Z","updated_at":"2022-11-15T04:20:28.707Z"},{"klass":"v1/balance","id":241567,"amount":0,"mode":"orange_ml","created_at":"2022-05-08T07:57:12.104Z","updated_at":"2022-05-08T07:57:12.104Z"},{"klass":"v1/balance","id":206843,"amount":0,"mode":"togocel","created_at":"2022-03-18T14:03:58.199Z","updated_at":"2022-03-18T14:03:58.199Z"},{"klass":"v1/balance","id":153824,"amount":0,"mode":"airtel_ne","created_at":"2021-12-02T18:20:55.316Z","updated_at":"2021-12-02T18:20:55.316Z"},{"klass":"v1/balance","id":138060,"amount":0,"mode":"free_sn","created_at":"2021-11-17T15:48:00.907Z","updated_at":"2021-11-17T15:48:00.907Z"},{"klass":"v1/balance","id":112801,"amount":0,"mode":"orabank_tpe","created_at":"2021-09-07T10:14:42.358Z","updated_at":"2021-09-07T10:14:42.358Z"},{"klass":"v1/balance","id":112800,"amount":0,"mode":"ecobank_tpe","created_at":"2021-09-07T10:14:42.351Z","updated_at":"2021-09-07T10:14:42.351Z"},{"klass":"v1/balance","id":112799,"amount":0,"mode":"orange_sn","created_at":"2021-09-07T10:14:42.333Z","updated_at":"2021-09-07T10:14:42.333Z"},{"klass":"v1/balance","id":112798,"amount":0,"mode":"orange_ci","created_at":"2021-09-07T10:14:42.326Z","updated_at":"2021-09-07T10:14:42.326Z"},{"klass":"v1/balance","id":112797,"amount":0,"mode":"moov_tg","created_at":"2021-09-07T10:14:42.318Z","updated_at":"2021-09-07T10:14:42.318Z"},{"klass":"v1/balance","id":112796,"amount":0,"mode":"moov","created_at":"2021-09-07T10:14:42.310Z","updated_at":"2021-09-07T10:14:42.310Z"},{"klass":"v1/balance","id":112795,"amount":0,"mode":"stripe_gw","created_at":"2021-09-07T10:14:42.303Z","updated_at":"2021-09-07T10:14:42.303Z"},{"klass":"v1/balance","id":112794,"amount":0,"mode":"uba","created_at":"2021-09-07T10:14:42.295Z","updated_at":"2021-09-07T10:14:42.295Z"},{"klass":"v1/balance","id":112793,"amount":0,"mode":"mtn_ci","created_at":"2021-09-07T10:14:42.287Z","updated_at":"2021-09-07T10:14:42.287Z"}],"bank_accounts":[],"mobile_accounts":[{"klass":"v1/mobile_account","id":16643,"account_id":9205,"verified":true,"holder":"SOLU TECH BENIN","name":"2290154909495 (BJ)","mode":"mtn_open","created_at":"2025-03-10T12:45:03.975Z","updated_at":"2025-03-10T12:47:40.142Z","deleted_at":null}],"card_accounts":[],"currencies":[{"klass":"v1/currency","id":1,"name":"FCFA","iso":"XOF","code":952,"prefix":null,"suffix":"CFA","div":1,"default":true,"created_at":"2018-05-28T15:29:17.866Z","updated_at":"2024-12-10T11:52:28.364Z","modes":["mtn","cybersource","moov","mtn_ci","moov_tg","orange_ci","orange_sn","free_sn","airtel_ne","togocel","orange_ml","mtn_open","mtn_ecw","ecobank_tpe","orabank_tpe","uba","stripe_gw","uba_atm","bmo","mtn_open_ci","sbin","wave_sn","wave_ci","moov_ci","moov_bf","orange_bf","coris_money","wave_direct_ci","my_feda"]}]}}
+✅ JSON décodé : Array
+(
+    [name] => transaction.created
+    [object] => transaction
+    [entity] => Array
+        (
+            [klass] => v1/transaction
+            [id] => 102209313
+            [reference] => trx_-bo_1743599050131
+            [amount] => 100
+            [description] => Choisissez votre forfait et payez en toute sécurité
+
+            [callback_url] => https://me.fedapay.com/paiement-wifi/callback?locale=
+            [status] => pending
+            [customer_id] => 4035302
+            [currency_id] => 1
+            [mode] => 
+            [operation] => payment
+            [metadata] => Array
+                (
+                    [expire_schedule_jobid] => b3a17e3f39a41e653081d147
+                )
+
+            [commission] => 
+            [fees] => 
+            [fixed_commission] => 0
+            [amount_transferred] => 
+            [created_at] => 2025-04-02T13:04:10.131Z
+            [updated_at] => 2025-04-02T13:04:10.837Z
+            [approved_at] => 
+            [canceled_at] => 
+            [declined_at] => 
+            [refunded_at] => 
+            [transferred_at] => 
+            [deleted_at] => 
+            [last_error_code] => 
+            [custom_metadata] => 
+            [amount_debited] => 
+            [receipt_url] => 
+            [payment_method_id] => 
+            [sub_accounts_commissions] => 
+            [transaction_key] => 
+            [merchant_reference] => 
+            [account_id] => 9205
+            [balance_id] => 
+            [customer] => Array
+                (
+                    [klass] => v1/customer
+                    [id] => 4035302
+                    [firstname] => Eulech
+                    [lastname] => GUEDENON
+                    [full_name] => Eulech GUEDENON
+                    [email] => solutechbenin1@gmail.com
+                    [account_id] => 9205
+                    [phone_number_id] => 107263801
+                    [created_at] => 2025-03-10T12:32:11.427Z
+                    [updated_at] => 2025-04-01T12:18:51.808Z
+                    [deleted_at] => 
+                )
+
+            [currency] => Array
+                (
+                    [klass] => v1/currency
+                    [id] => 1
+                    [name] => FCFA
+                    [iso] => XOF
+                    [code] => 952
+                    [prefix] => 
+                    [suffix] => CFA
+                    [div] => 1
+                    [default] => 1
+                    [created_at] => 2018-05-28T15:29:17.866Z
+                    [updated_at] => 2024-12-10T11:52:28.364Z
+                    [modes] => Array
+                        (
+                            [0] => mtn
+                            [1] => cybersource
+                            [2] => moov
+                            [3] => mtn_ci
+                            [4] => moov_tg
+                            [5] => orange_ci
+                            [6] => orange_sn
+                            [7] => free_sn
+                            [8] => airtel_ne
+                            [9] => togocel
+                            [10] => orange_ml
+                            [11] => mtn_open
+                            [12] => mtn_ecw
+                            [13] => ecobank_tpe
+                            [14] => orabank_tpe
+                            [15] => uba
+                            [16] => stripe_gw
+                            [17] => uba_atm
+                            [18] => bmo
+                            [19] => mtn_open_ci
+                            [20] => sbin
+                            [21] => wave_sn
+                            [22] => wave_ci
+                            [23] => moov_ci
+                            [24] => moov_bf
+                            [25] => orange_bf
+                            [26] => coris_money
+                            [27] => wave_direct_ci
+                            [28] => my_feda
+                        )
+
+                )
+
+            [payment_method] => 
+            [balance] => 
+            [refunds] => Array
+                (
+                )
+
+        )
+
+    [account] => Array
+        (
+            [klass] => v1/account
+            [id] => 9205
+            [name] => Solu tech
+            [timezone] => Africa/Algiers
+            [country] => BJ
+            [created_at] => 2021-09-07T10:14:42.229Z
+            [updated_at] => 2025-04-01T12:54:39.395Z
+            [verified] => 1
+            [reference] => acc_2722223637
+            [business_type] => business
+            [business_identity_type] => NATIONAL ID
+            [business_identity_number] => 20715585465224
+            [business_vat_number] => 0202113221674
+            [business_registration_number] =>  RB/COT/21 A 72482
+            [business_category] => IT and Software
+            [blocked] => 
+            [business_website] => 192.168.99.254/login
+            [business_address] => lot 2094 menontin cotonou
+            [business_name] => SOLU TECH BENIN
+            [business_phone] => +229 01 66 23 59 53
+            [business_email] => solutechbenin1@gmail.com
+            [business_owner] => GUEDENON Eulech Ulisse
+            [business_company_capital] => 500000
+            [business_description] => Des codes wifi
+            [submitted] => 1
+            [reject_reason] => fournir une description détaillée de votre activité
+            [has_balance_issue] => 
+            [blocked_reason] => 
+            [last_balance_issue_checked_at] => 2025-04-01T12:54:39.386Z
+            [prospect_code] => 
+            [deal_closer_code] => 
+            [manager_code] => 
+            [balance_issue_diff] => 0
+            [business_identity_id] => 103817
+            [business_vat_id] => 103818
+            [business_registration_id] => 104063
+            [business_owner_signature_id] => 9545
+            [business_identity] => Array
+                (
+                    [klass] => v1/asset
+                    [id] => 103817
+                    [public] => 
+                    [mime_type] => image/jpeg
+                    [urls] => Array
+                        (
+                            [original] => assets/103817/491faebf9a0f12cc82504773cef07fb6.jpg
+                            [thumbnail] => assets/103817/3bf8deb3efdad693578c7aec6fbc7e4e.jpg
+                        )
+
+                    [original_metadata] => Array
+                        (
+                            [filename] => CIP.JPG
+                            [size] => 44628
+                            [mime_type] => image/jpeg
+                        )
+
+                    [created_at] => 2025-03-10T13:14:50.966Z
+                    [updated_at] => 2025-03-10T13:14:54.428Z
+                )
+
+            [business_vat] => Array
+                (
+                    [klass] => v1/asset
+                    [id] => 103818
+                    [public] => 
+                    [mime_type] => image/jpeg
+                    [urls] => Array
+                        (
+                            [original] => assets/103818/e4e1308583f8fc15aa4741dedbde43dd.jpg
+                            [thumbnail] => assets/103818/8aa492eaad294957bd0b21824e6f295e.jpg
+                        )
+
+                    [original_metadata] => Array
+                        (
+                            [filename] => IFU.JPG
+                            [size] => 61778
+                            [mime_type] => image/jpeg
+                        )
+
+                    [created_at] => 2025-03-10T13:15:45.231Z
+                    [updated_at] => 2025-03-10T13:15:47.919Z
+                )
+
+            [business_registration] => Array
+                (
+                    [klass] => v1/asset
+                    [id] => 104063
+                    [public] => 
+                    [mime_type] => image/jpeg
+                    [urls] => Array
+                        (
+                            [original] => assets/104063/8d93c0145335457b5ac6779be7fc08e0.jpg
+                            [thumbnail] => assets/104063/ca6ab225f8f3a6829e35ff968264fea3.jpg
+                        )
+
+                    [original_metadata] => Array
+                        (
+                            [filename] => RCCM.JPG
+                            [size] => 59431
+                            [mime_type] => image/jpeg
+                        )
+
+                    [created_at] => 2025-03-12T12:41:56.768Z
+                    [updated_at] => 2025-03-12T12:41:59.763Z
+                )
+
+            [business_owner_signature] => Array
+                (
+                    [klass] => v1/asset
+                    [id] => 9545
+                    [public] => 
+                    [mime_type] => image/png
+                    [urls] => Array
+                        (
+                            [original] => assets/9545/62f68e7468251ebff0feac7ec057fad7.png
+                            [thumbnail] => assets/9545/4495d9e7d475927fbeded620560b60d2.png
+                        )
+
+                    [original_metadata] => Array
+                        (
+                            [filename] => Screenshot_20210907-174146.png
+                            [size] => 855206
+                            [mime_type] => image/png
+                        )
+
+                    [created_at] => 2021-09-07T16:44:22.548Z
+                    [updated_at] => 2021-09-07T16:44:23.911Z
+                )
+
+            [user_accounts] => Array
+                (
+                    [0] => Array
+                        (
+                            [klass] => v1/user_account
+                            [id] => 9384
+                            [account_id] => 9205
+                            [user_id] => 8555
+                            [role_id] => 1
+                        )
+
+                )
+
+            [users] => Array
+                (
+                    [0] => Array
+                        (
+                            [klass] => v1/user
+                            [id] => 8555
+                            [email] => geulech@gmail.com
+                            [confirmed_at] => 2021-09-07T10:45:01.893Z
+                            [reset_sent_at] => 2023-02-08T22:30:01.768Z
+                            [admin] => 
+                            [admin_role] => user
+                            [created_at] => 2021-09-07T10:14:42.217Z
+                            [updated_at] => 2025-03-07T21:55:49.743Z
+                            [firstname] => EULECH
+                            [lastname] => GUEDENON
+                            [locale] => fr
+                            [two_fa_enabled] => 
+                        )
+
+                )
+
+            [api_keys] => Array
+                (
+                    [0] => Array
+                        (
+                            [klass] => v1/api_key
+                            [id] => 69842
+                            [created_at] => 2025-03-20T09:20:14.739Z
+                            [updated_at] => 2025-03-20T09:20:14.739Z
+                            [public_key] => pk_live_Bxj9QGxpQ0qMIk5w89WuKfy2
+                        )
+
+                )
+
+            [balances] => Array
+                (
+                    [0] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 112792
+                            [amount] => 391
+                            [mode] => mtn
+                            [created_at] => 2021-09-07T10:14:42.280Z
+                            [updated_at] => 2021-09-07T10:14:42.280Z
+                        )
+
+                    [1] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 1487468
+                            [amount] => 0
+                            [mode] => my_feda
+                            [created_at] => 2024-12-10T11:19:49.449Z
+                            [updated_at] => 2024-12-10T11:19:49.449Z
+                        )
+
+                    [2] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 1286628
+                            [amount] => 0
+                            [mode] => wave_direct_ci
+                            [created_at] => 2024-09-02T16:48:31.533Z
+                            [updated_at] => 2024-09-02T16:48:31.533Z
+                        )
+
+                    [3] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 1184758
+                            [amount] => 0
+                            [mode] => coris_money
+                            [created_at] => 2024-08-06T08:35:16.623Z
+                            [updated_at] => 2024-08-06T08:35:16.623Z
+                        )
+
+                    [4] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 798864
+                            [amount] => 0
+                            [mode] => moov_ci
+                            [created_at] => 2024-03-13T12:50:47.796Z
+                            [updated_at] => 2024-03-13T12:50:47.796Z
+                        )
+
+                    [5] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 798863
+                            [amount] => 0
+                            [mode] => orange_bf
+                            [created_at] => 2024-03-13T12:50:47.771Z
+                            [updated_at] => 2024-03-13T12:50:47.771Z
+                        )
+
+                    [6] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 798862
+                            [amount] => 0
+                            [mode] => moov_bf
+                            [created_at] => 2024-03-13T12:50:47.747Z
+                            [updated_at] => 2024-03-13T12:50:47.747Z
+                        )
+
+                    [7] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 798861
+                            [amount] => 0
+                            [mode] => wave_sn
+                            [created_at] => 2024-03-13T12:50:47.724Z
+                            [updated_at] => 2024-03-13T12:50:47.724Z
+                        )
+
+                    [8] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 798860
+                            [amount] => 0
+                            [mode] => wave_ci
+                            [created_at] => 2024-03-13T12:50:47.700Z
+                            [updated_at] => 2024-03-13T12:50:47.700Z
+                        )
+
+                    [9] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 614768
+                            [amount] => 0
+                            [mode] => sbin
+                            [created_at] => 2023-11-27T18:47:41.975Z
+                            [updated_at] => 2023-11-27T18:47:41.975Z
+                        )
+
+                    [10] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 444577
+                            [amount] => 0
+                            [mode] => bmo
+                            [created_at] => 2023-03-27T17:46:55.472Z
+                            [updated_at] => 2023-03-27T17:46:55.472Z
+                        )
+
+                    [11] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 357856
+                            [amount] => 0
+                            [mode] => uba_atm
+                            [created_at] => 2022-11-15T04:20:28.707Z
+                            [updated_at] => 2022-11-15T04:20:28.707Z
+                        )
+
+                    [12] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 241567
+                            [amount] => 0
+                            [mode] => orange_ml
+                            [created_at] => 2022-05-08T07:57:12.104Z
+                            [updated_at] => 2022-05-08T07:57:12.104Z
+                        )
+
+                    [13] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 206843
+                            [amount] => 0
+                            [mode] => togocel
+                            [created_at] => 2022-03-18T14:03:58.199Z
+                            [updated_at] => 2022-03-18T14:03:58.199Z
+                        )
+
+                    [14] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 153824
+                            [amount] => 0
+                            [mode] => airtel_ne
+                            [created_at] => 2021-12-02T18:20:55.316Z
+                            [updated_at] => 2021-12-02T18:20:55.316Z
+                        )
+
+                    [15] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 138060
+                            [amount] => 0
+                            [mode] => free_sn
+                            [created_at] => 2021-11-17T15:48:00.907Z
+                            [updated_at] => 2021-11-17T15:48:00.907Z
+                        )
+
+                    [16] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 112801
+                            [amount] => 0
+                            [mode] => orabank_tpe
+                            [created_at] => 2021-09-07T10:14:42.358Z
+                            [updated_at] => 2021-09-07T10:14:42.358Z
+                        )
+
+                    [17] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 112800
+                            [amount] => 0
+                            [mode] => ecobank_tpe
+                            [created_at] => 2021-09-07T10:14:42.351Z
+                            [updated_at] => 2021-09-07T10:14:42.351Z
+                        )
+
+                    [18] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 112799
+                            [amount] => 0
+                            [mode] => orange_sn
+                            [created_at] => 2021-09-07T10:14:42.333Z
+                            [updated_at] => 2021-09-07T10:14:42.333Z
+                        )
+
+                    [19] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 112798
+                            [amount] => 0
+                            [mode] => orange_ci
+                            [created_at] => 2021-09-07T10:14:42.326Z
+                            [updated_at] => 2021-09-07T10:14:42.326Z
+                        )
+
+                    [20] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 112797
+                            [amount] => 0
+                            [mode] => moov_tg
+                            [created_at] => 2021-09-07T10:14:42.318Z
+                            [updated_at] => 2021-09-07T10:14:42.318Z
+                        )
+
+                    [21] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 112796
+                            [amount] => 0
+                            [mode] => moov
+                            [created_at] => 2021-09-07T10:14:42.310Z
+                            [updated_at] => 2021-09-07T10:14:42.310Z
+                        )
+
+                    [22] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 112795
+                            [amount] => 0
+                            [mode] => stripe_gw
+                            [created_at] => 2021-09-07T10:14:42.303Z
+                            [updated_at] => 2021-09-07T10:14:42.303Z
+                        )
+
+                    [23] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 112794
+                            [amount] => 0
+                            [mode] => uba
+                            [created_at] => 2021-09-07T10:14:42.295Z
+                            [updated_at] => 2021-09-07T10:14:42.295Z
+                        )
+
+                    [24] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 112793
+                            [amount] => 0
+                            [mode] => mtn_ci
+                            [created_at] => 2021-09-07T10:14:42.287Z
+                            [updated_at] => 2021-09-07T10:14:42.287Z
+                        )
+
+                )
+
+            [bank_accounts] => Array
+                (
+                )
+
+            [mobile_accounts] => Array
+                (
+                    [0] => Array
+                        (
+                            [klass] => v1/mobile_account
+                            [id] => 16643
+                            [account_id] => 9205
+                            [verified] => 1
+                            [holder] => SOLU TECH BENIN
+                            [name] => 2290154909495 (BJ)
+                            [mode] => mtn_open
+                            [created_at] => 2025-03-10T12:45:03.975Z
+                            [updated_at] => 2025-03-10T12:47:40.142Z
+                            [deleted_at] => 
+                        )
+
+                )
+
+            [card_accounts] => Array
+                (
+                )
+
+            [currencies] => Array
+                (
+                    [0] => Array
+                        (
+                            [klass] => v1/currency
+                            [id] => 1
+                            [name] => FCFA
+                            [iso] => XOF
+                            [code] => 952
+                            [prefix] => 
+                            [suffix] => CFA
+                            [div] => 1
+                            [default] => 1
+                            [created_at] => 2018-05-28T15:29:17.866Z
+                            [updated_at] => 2024-12-10T11:52:28.364Z
+                            [modes] => Array
+                                (
+                                    [0] => mtn
+                                    [1] => cybersource
+                                    [2] => moov
+                                    [3] => mtn_ci
+                                    [4] => moov_tg
+                                    [5] => orange_ci
+                                    [6] => orange_sn
+                                    [7] => free_sn
+                                    [8] => airtel_ne
+                                    [9] => togocel
+                                    [10] => orange_ml
+                                    [11] => mtn_open
+                                    [12] => mtn_ecw
+                                    [13] => ecobank_tpe
+                                    [14] => orabank_tpe
+                                    [15] => uba
+                                    [16] => stripe_gw
+                                    [17] => uba_atm
+                                    [18] => bmo
+                                    [19] => mtn_open_ci
+                                    [20] => sbin
+                                    [21] => wave_sn
+                                    [22] => wave_ci
+                                    [23] => moov_ci
+                                    [24] => moov_bf
+                                    [25] => orange_bf
+                                    [26] => coris_money
+                                    [27] => wave_direct_ci
+                                    [28] => my_feda
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+❌ Événement non reconnu
+Webhook appelé
+Données brutes reçues : {"name":"transaction.approved","object":"transaction","entity":{"klass":"v1/transaction","id":102209313,"reference":"trx_-bo_1743599050131","amount":100,"description":"Choisissez votre forfait et payez en toute sécurité\n","callback_url":"https://me.fedapay.com/paiement-wifi/callback?locale=","status":"approved","customer_id":4035302,"currency_id":1,"mode":"mtn_open","operation":"payment","metadata":{"expire_schedule_jobid":"b3a17e3f39a41e653081d147","paid_customer":{"firstname":"Eulech","lastname":"GUEDENON","email":"solutechbenin1@gmail.com"}},"commission":"0.018","fees":2,"fixed_commission":0,"amount_transferred":100,"created_at":"2025-04-02T13:04:10.131Z","updated_at":"2025-04-02T13:04:33.457Z","approved_at":"2025-04-02T13:04:33.308Z","canceled_at":null,"declined_at":null,"refunded_at":null,"transferred_at":null,"deleted_at":null,"last_error_code":"API_ERROR","custom_metadata":null,"amount_debited":102,"receipt_url":null,"payment_method_id":119506701,"sub_accounts_commissions":null,"transaction_key":"9494093334","merchant_reference":null,"account_id":9205,"balance_id":112792,"customer":{"klass":"v1/customer","id":4035302,"firstname":"Eulech","lastname":"GUEDENON","full_name":"Eulech GUEDENON","email":"solutechbenin1@gmail.com","account_id":9205,"phone_number_id":107263801,"created_at":"2025-03-10T12:32:11.427Z","updated_at":"2025-04-01T12:18:51.808Z","deleted_at":null},"currency":{"klass":"v1/currency","id":1,"name":"FCFA","iso":"XOF","code":952,"prefix":null,"suffix":"CFA","div":1,"default":true,"created_at":"2018-05-28T15:29:17.866Z","updated_at":"2024-12-10T11:52:28.364Z","modes":["mtn","cybersource","moov","mtn_ci","moov_tg","orange_ci","orange_sn","free_sn","airtel_ne","togocel","orange_ml","mtn_open","mtn_ecw","ecobank_tpe","orabank_tpe","uba","stripe_gw","uba_atm","bmo","mtn_open_ci","sbin","wave_sn","wave_ci","moov_ci","moov_bf","orange_bf","coris_money","wave_direct_ci","my_feda"]},"payment_method":{"klass":"v1/payment_method","id":119506701,"brand":"mtn_open","country":"BJ","number":"2290166235953","deleted_at":null,"created_at":"2025-04-02T13:04:17.835Z","updated_at":"2025-04-02T13:04:17.835Z","method":"phone"},"balance":{"klass":"v1/balance","id":112792,"amount":391,"mode":"mtn","created_at":"2021-09-07T10:14:42.280Z","updated_at":"2021-09-07T10:14:42.280Z"},"refunds":[]},"account":{"klass":"v1/account","id":9205,"name":"Solu tech","timezone":"Africa/Algiers","country":"BJ","created_at":"2021-09-07T10:14:42.229Z","updated_at":"2025-04-01T12:54:39.395Z","verified":true,"reference":"acc_2722223637","business_type":"business","business_identity_type":"NATIONAL ID","business_identity_number":"20715585465224","business_vat_number":"0202113221674","business_registration_number":" RB/COT/21 A 72482","business_category":"IT and Software","blocked":false,"business_website":"192.168.99.254/login","business_address":"lot 2094 menontin cotonou","business_name":"SOLU TECH BENIN","business_phone":"+229 01 66 23 59 53","business_email":"solutechbenin1@gmail.com","business_owner":"GUEDENON Eulech Ulisse","business_company_capital":"500000","business_description":"Des codes wifi","submitted":true,"reject_reason":"fournir une description détaillée de votre activité","has_balance_issue":false,"blocked_reason":null,"last_balance_issue_checked_at":"2025-04-01T12:54:39.386Z","prospect_code":null,"deal_closer_code":null,"manager_code":null,"balance_issue_diff":0,"business_identity_id":103817,"business_vat_id":103818,"business_registration_id":104063,"business_owner_signature_id":9545,"business_identity":{"klass":"v1/asset","id":103817,"public":false,"mime_type":"image/jpeg","urls":{"original":"assets/103817/491faebf9a0f12cc82504773cef07fb6.jpg","thumbnail":"assets/103817/3bf8deb3efdad693578c7aec6fbc7e4e.jpg"},"original_metadata":{"filename":"CIP.JPG","size":44628,"mime_type":"image/jpeg"},"created_at":"2025-03-10T13:14:50.966Z","updated_at":"2025-03-10T13:14:54.428Z"},"business_vat":{"klass":"v1/asset","id":103818,"public":false,"mime_type":"image/jpeg","urls":{"original":"assets/103818/e4e1308583f8fc15aa4741dedbde43dd.jpg","thumbnail":"assets/103818/8aa492eaad294957bd0b21824e6f295e.jpg"},"original_metadata":{"filename":"IFU.JPG","size":61778,"mime_type":"image/jpeg"},"created_at":"2025-03-10T13:15:45.231Z","updated_at":"2025-03-10T13:15:47.919Z"},"business_registration":{"klass":"v1/asset","id":104063,"public":false,"mime_type":"image/jpeg","urls":{"original":"assets/104063/8d93c0145335457b5ac6779be7fc08e0.jpg","thumbnail":"assets/104063/ca6ab225f8f3a6829e35ff968264fea3.jpg"},"original_metadata":{"filename":"RCCM.JPG","size":59431,"mime_type":"image/jpeg"},"created_at":"2025-03-12T12:41:56.768Z","updated_at":"2025-03-12T12:41:59.763Z"},"business_owner_signature":{"klass":"v1/asset","id":9545,"public":false,"mime_type":"image/png","urls":{"original":"assets/9545/62f68e7468251ebff0feac7ec057fad7.png","thumbnail":"assets/9545/4495d9e7d475927fbeded620560b60d2.png"},"original_metadata":{"filename":"Screenshot_20210907-174146.png","size":855206,"mime_type":"image/png"},"created_at":"2021-09-07T16:44:22.548Z","updated_at":"2021-09-07T16:44:23.911Z"},"user_accounts":[{"klass":"v1/user_account","id":9384,"account_id":9205,"user_id":8555,"role_id":1}],"users":[{"klass":"v1/user","id":8555,"email":"geulech@gmail.com","confirmed_at":"2021-09-07T10:45:01.893Z","reset_sent_at":"2023-02-08T22:30:01.768Z","admin":false,"admin_role":"user","created_at":"2021-09-07T10:14:42.217Z","updated_at":"2025-03-07T21:55:49.743Z","firstname":"EULECH","lastname":"GUEDENON","locale":"fr","two_fa_enabled":false}],"api_keys":[{"klass":"v1/api_key","id":69842,"created_at":"2025-03-20T09:20:14.739Z","updated_at":"2025-03-20T09:20:14.739Z","public_key":"pk_live_Bxj9QGxpQ0qMIk5w89WuKfy2"}],"balances":[{"klass":"v1/balance","id":112792,"amount":391,"mode":"mtn","created_at":"2021-09-07T10:14:42.280Z","updated_at":"2021-09-07T10:14:42.280Z"},{"klass":"v1/balance","id":1487468,"amount":0,"mode":"my_feda","created_at":"2024-12-10T11:19:49.449Z","updated_at":"2024-12-10T11:19:49.449Z"},{"klass":"v1/balance","id":1286628,"amount":0,"mode":"wave_direct_ci","created_at":"2024-09-02T16:48:31.533Z","updated_at":"2024-09-02T16:48:31.533Z"},{"klass":"v1/balance","id":1184758,"amount":0,"mode":"coris_money","created_at":"2024-08-06T08:35:16.623Z","updated_at":"2024-08-06T08:35:16.623Z"},{"klass":"v1/balance","id":798864,"amount":0,"mode":"moov_ci","created_at":"2024-03-13T12:50:47.796Z","updated_at":"2024-03-13T12:50:47.796Z"},{"klass":"v1/balance","id":798863,"amount":0,"mode":"orange_bf","created_at":"2024-03-13T12:50:47.771Z","updated_at":"2024-03-13T12:50:47.771Z"},{"klass":"v1/balance","id":798862,"amount":0,"mode":"moov_bf","created_at":"2024-03-13T12:50:47.747Z","updated_at":"2024-03-13T12:50:47.747Z"},{"klass":"v1/balance","id":798861,"amount":0,"mode":"wave_sn","created_at":"2024-03-13T12:50:47.724Z","updated_at":"2024-03-13T12:50:47.724Z"},{"klass":"v1/balance","id":798860,"amount":0,"mode":"wave_ci","created_at":"2024-03-13T12:50:47.700Z","updated_at":"2024-03-13T12:50:47.700Z"},{"klass":"v1/balance","id":614768,"amount":0,"mode":"sbin","created_at":"2023-11-27T18:47:41.975Z","updated_at":"2023-11-27T18:47:41.975Z"},{"klass":"v1/balance","id":444577,"amount":0,"mode":"bmo","created_at":"2023-03-27T17:46:55.472Z","updated_at":"2023-03-27T17:46:55.472Z"},{"klass":"v1/balance","id":357856,"amount":0,"mode":"uba_atm","created_at":"2022-11-15T04:20:28.707Z","updated_at":"2022-11-15T04:20:28.707Z"},{"klass":"v1/balance","id":241567,"amount":0,"mode":"orange_ml","created_at":"2022-05-08T07:57:12.104Z","updated_at":"2022-05-08T07:57:12.104Z"},{"klass":"v1/balance","id":206843,"amount":0,"mode":"togocel","created_at":"2022-03-18T14:03:58.199Z","updated_at":"2022-03-18T14:03:58.199Z"},{"klass":"v1/balance","id":153824,"amount":0,"mode":"airtel_ne","created_at":"2021-12-02T18:20:55.316Z","updated_at":"2021-12-02T18:20:55.316Z"},{"klass":"v1/balance","id":138060,"amount":0,"mode":"free_sn","created_at":"2021-11-17T15:48:00.907Z","updated_at":"2021-11-17T15:48:00.907Z"},{"klass":"v1/balance","id":112801,"amount":0,"mode":"orabank_tpe","created_at":"2021-09-07T10:14:42.358Z","updated_at":"2021-09-07T10:14:42.358Z"},{"klass":"v1/balance","id":112800,"amount":0,"mode":"ecobank_tpe","created_at":"2021-09-07T10:14:42.351Z","updated_at":"2021-09-07T10:14:42.351Z"},{"klass":"v1/balance","id":112799,"amount":0,"mode":"orange_sn","created_at":"2021-09-07T10:14:42.333Z","updated_at":"2021-09-07T10:14:42.333Z"},{"klass":"v1/balance","id":112798,"amount":0,"mode":"orange_ci","created_at":"2021-09-07T10:14:42.326Z","updated_at":"2021-09-07T10:14:42.326Z"},{"klass":"v1/balance","id":112797,"amount":0,"mode":"moov_tg","created_at":"2021-09-07T10:14:42.318Z","updated_at":"2021-09-07T10:14:42.318Z"},{"klass":"v1/balance","id":112796,"amount":0,"mode":"moov","created_at":"2021-09-07T10:14:42.310Z","updated_at":"2021-09-07T10:14:42.310Z"},{"klass":"v1/balance","id":112795,"amount":0,"mode":"stripe_gw","created_at":"2021-09-07T10:14:42.303Z","updated_at":"2021-09-07T10:14:42.303Z"},{"klass":"v1/balance","id":112794,"amount":0,"mode":"uba","created_at":"2021-09-07T10:14:42.295Z","updated_at":"2021-09-07T10:14:42.295Z"},{"klass":"v1/balance","id":112793,"amount":0,"mode":"mtn_ci","created_at":"2021-09-07T10:14:42.287Z","updated_at":"2021-09-07T10:14:42.287Z"}],"bank_accounts":[],"mobile_accounts":[{"klass":"v1/mobile_account","id":16643,"account_id":9205,"verified":true,"holder":"SOLU TECH BENIN","name":"2290154909495 (BJ)","mode":"mtn_open","created_at":"2025-03-10T12:45:03.975Z","updated_at":"2025-03-10T12:47:40.142Z","deleted_at":null}],"card_accounts":[],"currencies":[{"klass":"v1/currency","id":1,"name":"FCFA","iso":"XOF","code":952,"prefix":null,"suffix":"CFA","div":1,"default":true,"created_at":"2018-05-28T15:29:17.866Z","updated_at":"2024-12-10T11:52:28.364Z","modes":["mtn","cybersource","moov","mtn_ci","moov_tg","orange_ci","orange_sn","free_sn","airtel_ne","togocel","orange_ml","mtn_open","mtn_ecw","ecobank_tpe","orabank_tpe","uba","stripe_gw","uba_atm","bmo","mtn_open_ci","sbin","wave_sn","wave_ci","moov_ci","moov_bf","orange_bf","coris_money","wave_direct_ci","my_feda"]}]}}
+✅ JSON décodé : Array
+(
+    [name] => transaction.approved
+    [object] => transaction
+    [entity] => Array
+        (
+            [klass] => v1/transaction
+            [id] => 102209313
+            [reference] => trx_-bo_1743599050131
+            [amount] => 100
+            [description] => Choisissez votre forfait et payez en toute sécurité
+
+            [callback_url] => https://me.fedapay.com/paiement-wifi/callback?locale=
+            [status] => approved
+            [customer_id] => 4035302
+            [currency_id] => 1
+            [mode] => mtn_open
+            [operation] => payment
+            [metadata] => Array
+                (
+                    [expire_schedule_jobid] => b3a17e3f39a41e653081d147
+                    [paid_customer] => Array
+                        (
+                            [firstname] => Eulech
+                            [lastname] => GUEDENON
+                            [email] => solutechbenin1@gmail.com
+                        )
+
+                )
+
+            [commission] => 0.018
+            [fees] => 2
+            [fixed_commission] => 0
+            [amount_transferred] => 100
+            [created_at] => 2025-04-02T13:04:10.131Z
+            [updated_at] => 2025-04-02T13:04:33.457Z
+            [approved_at] => 2025-04-02T13:04:33.308Z
+            [canceled_at] => 
+            [declined_at] => 
+            [refunded_at] => 
+            [transferred_at] => 
+            [deleted_at] => 
+            [last_error_code] => API_ERROR
+            [custom_metadata] => 
+            [amount_debited] => 102
+            [receipt_url] => 
+            [payment_method_id] => 119506701
+            [sub_accounts_commissions] => 
+            [transaction_key] => 9494093334
+            [merchant_reference] => 
+            [account_id] => 9205
+            [balance_id] => 112792
+            [customer] => Array
+                (
+                    [klass] => v1/customer
+                    [id] => 4035302
+                    [firstname] => Eulech
+                    [lastname] => GUEDENON
+                    [full_name] => Eulech GUEDENON
+                    [email] => solutechbenin1@gmail.com
+                    [account_id] => 9205
+                    [phone_number_id] => 107263801
+                    [created_at] => 2025-03-10T12:32:11.427Z
+                    [updated_at] => 2025-04-01T12:18:51.808Z
+                    [deleted_at] => 
+                )
+
+            [currency] => Array
+                (
+                    [klass] => v1/currency
+                    [id] => 1
+                    [name] => FCFA
+                    [iso] => XOF
+                    [code] => 952
+                    [prefix] => 
+                    [suffix] => CFA
+                    [div] => 1
+                    [default] => 1
+                    [created_at] => 2018-05-28T15:29:17.866Z
+                    [updated_at] => 2024-12-10T11:52:28.364Z
+                    [modes] => Array
+                        (
+                            [0] => mtn
+                            [1] => cybersource
+                            [2] => moov
+                            [3] => mtn_ci
+                            [4] => moov_tg
+                            [5] => orange_ci
+                            [6] => orange_sn
+                            [7] => free_sn
+                            [8] => airtel_ne
+                            [9] => togocel
+                            [10] => orange_ml
+                            [11] => mtn_open
+                            [12] => mtn_ecw
+                            [13] => ecobank_tpe
+                            [14] => orabank_tpe
+                            [15] => uba
+                            [16] => stripe_gw
+                            [17] => uba_atm
+                            [18] => bmo
+                            [19] => mtn_open_ci
+                            [20] => sbin
+                            [21] => wave_sn
+                            [22] => wave_ci
+                            [23] => moov_ci
+                            [24] => moov_bf
+                            [25] => orange_bf
+                            [26] => coris_money
+                            [27] => wave_direct_ci
+                            [28] => my_feda
+                        )
+
+                )
+
+            [payment_method] => Array
+                (
+                    [klass] => v1/payment_method
+                    [id] => 119506701
+                    [brand] => mtn_open
+                    [country] => BJ
+                    [number] => 2290166235953
+                    [deleted_at] => 
+                    [created_at] => 2025-04-02T13:04:17.835Z
+                    [updated_at] => 2025-04-02T13:04:17.835Z
+                    [method] => phone
+                )
+
+            [balance] => Array
+                (
+                    [klass] => v1/balance
+                    [id] => 112792
+                    [amount] => 391
+                    [mode] => mtn
+                    [created_at] => 2021-09-07T10:14:42.280Z
+                    [updated_at] => 2021-09-07T10:14:42.280Z
+                )
+
+            [refunds] => Array
+                (
+                )
+
+        )
+
+    [account] => Array
+        (
+            [klass] => v1/account
+            [id] => 9205
+            [name] => Solu tech
+            [timezone] => Africa/Algiers
+            [country] => BJ
+            [created_at] => 2021-09-07T10:14:42.229Z
+            [updated_at] => 2025-04-01T12:54:39.395Z
+            [verified] => 1
+            [reference] => acc_2722223637
+            [business_type] => business
+            [business_identity_type] => NATIONAL ID
+            [business_identity_number] => 20715585465224
+            [business_vat_number] => 0202113221674
+            [business_registration_number] =>  RB/COT/21 A 72482
+            [business_category] => IT and Software
+            [blocked] => 
+            [business_website] => 192.168.99.254/login
+            [business_address] => lot 2094 menontin cotonou
+            [business_name] => SOLU TECH BENIN
+            [business_phone] => +229 01 66 23 59 53
+            [business_email] => solutechbenin1@gmail.com
+            [business_owner] => GUEDENON Eulech Ulisse
+            [business_company_capital] => 500000
+            [business_description] => Des codes wifi
+            [submitted] => 1
+            [reject_reason] => fournir une description détaillée de votre activité
+            [has_balance_issue] => 
+            [blocked_reason] => 
+            [last_balance_issue_checked_at] => 2025-04-01T12:54:39.386Z
+            [prospect_code] => 
+            [deal_closer_code] => 
+            [manager_code] => 
+            [balance_issue_diff] => 0
+            [business_identity_id] => 103817
+            [business_vat_id] => 103818
+            [business_registration_id] => 104063
+            [business_owner_signature_id] => 9545
+            [business_identity] => Array
+                (
+                    [klass] => v1/asset
+                    [id] => 103817
+                    [public] => 
+                    [mime_type] => image/jpeg
+                    [urls] => Array
+                        (
+                            [original] => assets/103817/491faebf9a0f12cc82504773cef07fb6.jpg
+                            [thumbnail] => assets/103817/3bf8deb3efdad693578c7aec6fbc7e4e.jpg
+                        )
+
+                    [original_metadata] => Array
+                        (
+                            [filename] => CIP.JPG
+                            [size] => 44628
+                            [mime_type] => image/jpeg
+                        )
+
+                    [created_at] => 2025-03-10T13:14:50.966Z
+                    [updated_at] => 2025-03-10T13:14:54.428Z
+                )
+
+            [business_vat] => Array
+                (
+                    [klass] => v1/asset
+                    [id] => 103818
+                    [public] => 
+                    [mime_type] => image/jpeg
+                    [urls] => Array
+                        (
+                            [original] => assets/103818/e4e1308583f8fc15aa4741dedbde43dd.jpg
+                            [thumbnail] => assets/103818/8aa492eaad294957bd0b21824e6f295e.jpg
+                        )
+
+                    [original_metadata] => Array
+                        (
+                            [filename] => IFU.JPG
+                            [size] => 61778
+                            [mime_type] => image/jpeg
+                        )
+
+                    [created_at] => 2025-03-10T13:15:45.231Z
+                    [updated_at] => 2025-03-10T13:15:47.919Z
+                )
+
+            [business_registration] => Array
+                (
+                    [klass] => v1/asset
+                    [id] => 104063
+                    [public] => 
+                    [mime_type] => image/jpeg
+                    [urls] => Array
+                        (
+                            [original] => assets/104063/8d93c0145335457b5ac6779be7fc08e0.jpg
+                            [thumbnail] => assets/104063/ca6ab225f8f3a6829e35ff968264fea3.jpg
+                        )
+
+                    [original_metadata] => Array
+                        (
+                            [filename] => RCCM.JPG
+                            [size] => 59431
+                            [mime_type] => image/jpeg
+                        )
+
+                    [created_at] => 2025-03-12T12:41:56.768Z
+                    [updated_at] => 2025-03-12T12:41:59.763Z
+                )
+
+            [business_owner_signature] => Array
+                (
+                    [klass] => v1/asset
+                    [id] => 9545
+                    [public] => 
+                    [mime_type] => image/png
+                    [urls] => Array
+                        (
+                            [original] => assets/9545/62f68e7468251ebff0feac7ec057fad7.png
+                            [thumbnail] => assets/9545/4495d9e7d475927fbeded620560b60d2.png
+                        )
+
+                    [original_metadata] => Array
+                        (
+                            [filename] => Screenshot_20210907-174146.png
+                            [size] => 855206
+                            [mime_type] => image/png
+                        )
+
+                    [created_at] => 2021-09-07T16:44:22.548Z
+                    [updated_at] => 2021-09-07T16:44:23.911Z
+                )
+
+            [user_accounts] => Array
+                (
+                    [0] => Array
+                        (
+                            [klass] => v1/user_account
+                            [id] => 9384
+                            [account_id] => 9205
+                            [user_id] => 8555
+                            [role_id] => 1
+                        )
+
+                )
+
+            [users] => Array
+                (
+                    [0] => Array
+                        (
+                            [klass] => v1/user
+                            [id] => 8555
+                            [email] => geulech@gmail.com
+                            [confirmed_at] => 2021-09-07T10:45:01.893Z
+                            [reset_sent_at] => 2023-02-08T22:30:01.768Z
+                            [admin] => 
+                            [admin_role] => user
+                            [created_at] => 2021-09-07T10:14:42.217Z
+                            [updated_at] => 2025-03-07T21:55:49.743Z
+                            [firstname] => EULECH
+                            [lastname] => GUEDENON
+                            [locale] => fr
+                            [two_fa_enabled] => 
+                        )
+
+                )
+
+            [api_keys] => Array
+                (
+                    [0] => Array
+                        (
+                            [klass] => v1/api_key
+                            [id] => 69842
+                            [created_at] => 2025-03-20T09:20:14.739Z
+                            [updated_at] => 2025-03-20T09:20:14.739Z
+                            [public_key] => pk_live_Bxj9QGxpQ0qMIk5w89WuKfy2
+                        )
+
+                )
+
+            [balances] => Array
+                (
+                    [0] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 112792
+                            [amount] => 391
+                            [mode] => mtn
+                            [created_at] => 2021-09-07T10:14:42.280Z
+                            [updated_at] => 2021-09-07T10:14:42.280Z
+                        )
+
+                    [1] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 1487468
+                            [amount] => 0
+                            [mode] => my_feda
+                            [created_at] => 2024-12-10T11:19:49.449Z
+                            [updated_at] => 2024-12-10T11:19:49.449Z
+                        )
+
+                    [2] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 1286628
+                            [amount] => 0
+                            [mode] => wave_direct_ci
+                            [created_at] => 2024-09-02T16:48:31.533Z
+                            [updated_at] => 2024-09-02T16:48:31.533Z
+                        )
+
+                    [3] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 1184758
+                            [amount] => 0
+                            [mode] => coris_money
+                            [created_at] => 2024-08-06T08:35:16.623Z
+                            [updated_at] => 2024-08-06T08:35:16.623Z
+                        )
+
+                    [4] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 798864
+                            [amount] => 0
+                            [mode] => moov_ci
+                            [created_at] => 2024-03-13T12:50:47.796Z
+                            [updated_at] => 2024-03-13T12:50:47.796Z
+                        )
+
+                    [5] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 798863
+                            [amount] => 0
+                            [mode] => orange_bf
+                            [created_at] => 2024-03-13T12:50:47.771Z
+                            [updated_at] => 2024-03-13T12:50:47.771Z
+                        )
+
+                    [6] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 798862
+                            [amount] => 0
+                            [mode] => moov_bf
+                            [created_at] => 2024-03-13T12:50:47.747Z
+                            [updated_at] => 2024-03-13T12:50:47.747Z
+                        )
+
+                    [7] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 798861
+                            [amount] => 0
+                            [mode] => wave_sn
+                            [created_at] => 2024-03-13T12:50:47.724Z
+                            [updated_at] => 2024-03-13T12:50:47.724Z
+                        )
+
+                    [8] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 798860
+                            [amount] => 0
+                            [mode] => wave_ci
+                            [created_at] => 2024-03-13T12:50:47.700Z
+                            [updated_at] => 2024-03-13T12:50:47.700Z
+                        )
+
+                    [9] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 614768
+                            [amount] => 0
+                            [mode] => sbin
+                            [created_at] => 2023-11-27T18:47:41.975Z
+                            [updated_at] => 2023-11-27T18:47:41.975Z
+                        )
+
+                    [10] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 444577
+                            [amount] => 0
+                            [mode] => bmo
+                            [created_at] => 2023-03-27T17:46:55.472Z
+                            [updated_at] => 2023-03-27T17:46:55.472Z
+                        )
+
+                    [11] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 357856
+                            [amount] => 0
+                            [mode] => uba_atm
+                            [created_at] => 2022-11-15T04:20:28.707Z
+                            [updated_at] => 2022-11-15T04:20:28.707Z
+                        )
+
+                    [12] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 241567
+                            [amount] => 0
+                            [mode] => orange_ml
+                            [created_at] => 2022-05-08T07:57:12.104Z
+                            [updated_at] => 2022-05-08T07:57:12.104Z
+                        )
+
+                    [13] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 206843
+                            [amount] => 0
+                            [mode] => togocel
+                            [created_at] => 2022-03-18T14:03:58.199Z
+                            [updated_at] => 2022-03-18T14:03:58.199Z
+                        )
+
+                    [14] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 153824
+                            [amount] => 0
+                            [mode] => airtel_ne
+                            [created_at] => 2021-12-02T18:20:55.316Z
+                            [updated_at] => 2021-12-02T18:20:55.316Z
+                        )
+
+                    [15] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 138060
+                            [amount] => 0
+                            [mode] => free_sn
+                            [created_at] => 2021-11-17T15:48:00.907Z
+                            [updated_at] => 2021-11-17T15:48:00.907Z
+                        )
+
+                    [16] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 112801
+                            [amount] => 0
+                            [mode] => orabank_tpe
+                            [created_at] => 2021-09-07T10:14:42.358Z
+                            [updated_at] => 2021-09-07T10:14:42.358Z
+                        )
+
+                    [17] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 112800
+                            [amount] => 0
+                            [mode] => ecobank_tpe
+                            [created_at] => 2021-09-07T10:14:42.351Z
+                            [updated_at] => 2021-09-07T10:14:42.351Z
+                        )
+
+                    [18] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 112799
+                            [amount] => 0
+                            [mode] => orange_sn
+                            [created_at] => 2021-09-07T10:14:42.333Z
+                            [updated_at] => 2021-09-07T10:14:42.333Z
+                        )
+
+                    [19] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 112798
+                            [amount] => 0
+                            [mode] => orange_ci
+                            [created_at] => 2021-09-07T10:14:42.326Z
+                            [updated_at] => 2021-09-07T10:14:42.326Z
+                        )
+
+                    [20] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 112797
+                            [amount] => 0
+                            [mode] => moov_tg
+                            [created_at] => 2021-09-07T10:14:42.318Z
+                            [updated_at] => 2021-09-07T10:14:42.318Z
+                        )
+
+                    [21] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 112796
+                            [amount] => 0
+                            [mode] => moov
+                            [created_at] => 2021-09-07T10:14:42.310Z
+                            [updated_at] => 2021-09-07T10:14:42.310Z
+                        )
+
+                    [22] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 112795
+                            [amount] => 0
+                            [mode] => stripe_gw
+                            [created_at] => 2021-09-07T10:14:42.303Z
+                            [updated_at] => 2021-09-07T10:14:42.303Z
+                        )
+
+                    [23] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 112794
+                            [amount] => 0
+                            [mode] => uba
+                            [created_at] => 2021-09-07T10:14:42.295Z
+                            [updated_at] => 2021-09-07T10:14:42.295Z
+                        )
+
+                    [24] => Array
+                        (
+                            [klass] => v1/balance
+                            [id] => 112793
+                            [amount] => 0
+                            [mode] => mtn_ci
+                            [created_at] => 2021-09-07T10:14:42.287Z
+                            [updated_at] => 2021-09-07T10:14:42.287Z
+                        )
+
+                )
+
+            [bank_accounts] => Array
+                (
+                )
+
+            [mobile_accounts] => Array
+                (
+                    [0] => Array
+                        (
+                            [klass] => v1/mobile_account
+                            [id] => 16643
+                            [account_id] => 9205
+                            [verified] => 1
+                            [holder] => SOLU TECH BENIN
+                            [name] => 2290154909495 (BJ)
+                            [mode] => mtn_open
+                            [created_at] => 2025-03-10T12:45:03.975Z
+                            [updated_at] => 2025-03-10T12:47:40.142Z
+                            [deleted_at] => 
+                        )
+
+                )
+
+            [card_accounts] => Array
+                (
+                )
+
+            [currencies] => Array
+                (
+                    [0] => Array
+                        (
+                            [klass] => v1/currency
+                            [id] => 1
+                            [name] => FCFA
+                            [iso] => XOF
+                            [code] => 952
+                            [prefix] => 
+                            [suffix] => CFA
+                            [div] => 1
+                            [default] => 1
+                            [created_at] => 2018-05-28T15:29:17.866Z
+                            [updated_at] => 2024-12-10T11:52:28.364Z
+                            [modes] => Array
+                                (
+                                    [0] => mtn
+                                    [1] => cybersource
+                                    [2] => moov
+                                    [3] => mtn_ci
+                                    [4] => moov_tg
+                                    [5] => orange_ci
+                                    [6] => orange_sn
+                                    [7] => free_sn
+                                    [8] => airtel_ne
+                                    [9] => togocel
+                                    [10] => orange_ml
+                                    [11] => mtn_open
+                                    [12] => mtn_ecw
+                                    [13] => ecobank_tpe
+                                    [14] => orabank_tpe
+                                    [15] => uba
+                                    [16] => stripe_gw
+                                    [17] => uba_atm
+                                    [18] => bmo
+                                    [19] => mtn_open_ci
+                                    [20] => sbin
+                                    [21] => wave_sn
+                                    [22] => wave_ci
+                                    [23] => moov_ci
+                                    [24] => moov_bf
+                                    [25] => orange_bf
+                                    [26] => coris_money
+                                    [27] => wave_direct_ci
+                                    [28] => my_feda
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+❌ Événement non reconnu
