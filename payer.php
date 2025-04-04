@@ -2,7 +2,9 @@
 
 require __DIR__ . '/vendor/autoload.php';
 // require 'C:\wamp\www\wifi_hotspot_momo\vendor\autoload.php';
-require 'C:\wamp\www\wifi_hotspot\vendor\routeros_api.class.php';
+require __DIR__ . "/vendor/routeros-api/routeros_api.class.php";
+
+//require 'C:\wamp\www\wifi_hotspot\vendor\routeros_api.class.php';
 
 use FedaPay\FedaPay;
 
