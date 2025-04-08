@@ -8,9 +8,9 @@ FedaPay::setApiKey('sk_live_pMFS_WnV-bQHUQ-eHAAijwFC');
 
 // Vérifier les paramètres
 
-// if (!isset($_GET['montant']) || !isset($_GET['nom']) || !isset($_GET['forfait'])) {
- //   die('Montant, offre ou forfait non spécifié.');
-// }
+ if (!isset($_GET['montant']) || !isset($_GET['nom']) || !isset($_GET['forfait'])) {
+    die('Montant, offre ou forfait non spécifié.');
+ }
 
 $montant = $_GET['montant'];
 $nomOffre = urldecode($_GET['nom']);
