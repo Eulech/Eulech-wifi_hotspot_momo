@@ -1,16 +1,12 @@
 <?php
 
 require __DIR__ . '/vendor/autoload.php';
-require __DIR__ . '/lib/routeros_api.class.php';
-
-// require 'C:\wamp\www\wifi_hotspot_momo\vendor\autoload.php';
-//require 'C:\wamp\www\wifi_hotspot\vendor\routeros_api.class.php';
-
 use FedaPay\FedaPay;
+use FedaPay\Transaction;
 
 FedaPay::setApiKey('sk_live_pMFS_WnV-bQHUQ-eHAAijwFC');
 
-// Vérifier la présence des paramètres
+// Vérifier les paramètres
 if (!isset($_GET['montant']) || !isset($_GET['nom']) || !isset($_GET['forfait'])) {
     die('Montant, offre ou forfait non spécifié.');
 }
@@ -19,7 +15,7 @@ $montant = $_GET['montant'];
 $nomOffre = urldecode($_GET['nom']);
 $forfait_choisi = $_GET['forfait'];
 
-// Tableau des profils MikroTik
+// Vérifier le forfait
 $profils = [
     'forfait_2h' => '2h_profile',
     'forfait_12h' => '12h_profile',
@@ -32,7 +28,30 @@ if (!isset($profils[$forfait_choisi])) {
     die('Forfait non valide.');
 }
 
-// Redirection vers FedaPay
-$url_fedaPay = "https://me.fedapay.com/paiement-wifi";
-header("Location: $url_fedaPay");
-exit;
+try {
+    // Créer la transaction FedaPay
+    $transaction = Transaction::create([
+        "description" => "Achat forfait $nomOffre",
+        "amount" => $montant,
+        "currency" => ["iso" => "XOF"],
+        "callback_url" => "https://ton-domaine.com/webhook.php", // Facultatif
+        "customer" => [
+            "firstname" => "Client",
+            "lastname" => "WiFi",
+            "email" => "client@example.com"
+        ],
+        "metadata" => [
+            "forfait" => $forfait_choisi
+        ]
+    ]);
+
+    $token = $transaction->generateToken();
+    $url_fedaPay = $token->url;
+
+    // Rediriger vers la page de paiement FedaPay
+    header("Location: $url_fedaPay");
+    exit;
+
+} catch (Exception $e) {
+    echo "Erreur lors de la création du paiement : " . $e->getMessage();
+}
