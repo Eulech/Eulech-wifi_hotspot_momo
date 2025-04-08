@@ -53,12 +53,13 @@
             font-size: 16px;
         }
     </style>
-    <script>
+   <script>
     function payer(montant, nom, forfait) {
         const url = `payer.php?montant=${montant}&nom=${encodeURIComponent(nom)}&forfait=${forfait}`;
         window.location.href = url;
     }
 </script>
+
 </head>
 <body>
 
