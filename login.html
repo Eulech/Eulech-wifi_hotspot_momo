@@ -18,6 +18,34 @@
             padding: 15px;
             margin: 0;
         }
+        .login-container {
+            margin: 20px auto;
+            width: 90%;
+            max-width: 300px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-btn {
+            background-color: #009688;
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .login-btn:hover {
+            background-color: #00796B;
+        }
         table {
             width: 90%;
             max-width: 600px;
@@ -53,17 +81,34 @@
             font-size: 16px;
         }
     </style>
-   <script>
-    function payer(montant, nom, forfait) {
-        const url = `payer.php?montant=${montant}&nom=${encodeURIComponent(nom)}&forfait=${forfait}`;
-        window.location.href = url;
-    }
-</script>
-
+    <script>
+        function payer(montant) {
+            window.location.href = "https://me.fedapay.com/paiement-wifi?montant=" + montant;
+        }
+        
+        function afficherIdentifiants() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const username = urlParams.get('username');
+            const password = urlParams.get('password');
+            
+            if (username && password) {
+                document.getElementById('username').value = username;
+                document.getElementById('password').value = password;
+            }
+        }
+    </script>
 </head>
-<body>
-
+<body onload="afficherIdentifiants()">
     <h2>WIFI ZONE - Connexion</h2>
+
+    <div class="login-container">
+        <h3>Connexion</h3>
+        <form>
+            <input type="text" id="username" placeholder="Nom d'utilisateur" required><br>
+            <input type="password" id="password" placeholder="Mot de passe" required><br>
+            <button type="submit" class="login-btn">Se connecter</button>
+        </form>
+    </div>
 
     <table>
         <tr>
@@ -104,6 +149,5 @@
     </table>
 
     <p class="contact">LES TICKETS SONT DISPONIBLES CHEZ "SYLVADORE".<br>CONTACT : 01-62-56-57-58</p>
-
 </body>
 </html>
